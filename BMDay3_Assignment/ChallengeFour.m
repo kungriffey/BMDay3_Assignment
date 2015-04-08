@@ -15,7 +15,7 @@ NSString * convertString(NSString *text){
 }
 
 
-int main(int argc, const char * argv[]) {
+int main4(int argc, const char * argv[]) {
     @autoreleasepool {
         NSString *returnTypedText = convertString(@"Hi how are you?");
         NSLog(@"%@", returnTypedText);
