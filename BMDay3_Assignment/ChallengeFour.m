@@ -9,25 +9,16 @@
 #import <Foundation/Foundation.h>
 
 
-int compareFunction(int a, int b){
-    
-    int higherValue = 0;
-    if (a > b) {
-        higherValue = a;
-    }
-    else{
-        higherValue = b;
-    }
-    
-    return higherValue;
+NSString * convertString(NSString *text){
+
+    return text;
 }
 
 
-int main4(int argc, const char * argv[]) {
+int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        
-        int higherValue = compareFunction(5,10);
-        NSLog(@"The higher value is %i", higherValue);
+        NSString *returnTypedText = convertString(@"Hi how are you?");
+        NSLog(@"%@", returnTypedText);
     }
     return 0;
 }

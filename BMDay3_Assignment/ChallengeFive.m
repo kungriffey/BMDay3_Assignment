@@ -9,11 +9,25 @@
 #import <Foundation/Foundation.h>
 
 
-int main(int argc, const char * argv[]) {
+int compareFunction(int a, int b){
+    
+    int higherValue = 0;
+    if (a > b) {
+        higherValue = a;
+    }
+    else{
+        higherValue = b;
+    }
+    
+    return higherValue;
+}
+
+
+int main5(int argc, const char * argv[]) {
     @autoreleasepool {
         
-
-    
+        int higherValue = compareFunction(5,10);
+        NSLog(@"The higher value is %i", higherValue);
     }
     return 0;
 }
