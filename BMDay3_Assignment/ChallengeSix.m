@@ -16,8 +16,7 @@ int acceptIntegerValueForStartingPointOfLoop(int a){
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
-        
-        for (int i = acceptIntegerValueForStartingPointOfLoop(5); i< 99; i++) {
+        for (int i = acceptIntegerValueForStartingPointOfLoop(5); i <= 99; i++) {
             NSLog(@"%i",i);
         }
 
