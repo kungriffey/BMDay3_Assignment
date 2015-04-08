@@ -23,7 +23,7 @@ int compareFunction(int a, int b){
 }
 
 
-int main(int argc, const char * argv[]) {
+int main4(int argc, const char * argv[]) {
     @autoreleasepool {
         
         int higherValue = compareFunction(5,10);
