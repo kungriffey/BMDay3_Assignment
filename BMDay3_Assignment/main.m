@@ -15,7 +15,6 @@ float convertToCelsius() {
     return tempInCelsius;
 }
 
-
 int main1(int argc, const char * argv[]) {
     @autoreleasepool {
 

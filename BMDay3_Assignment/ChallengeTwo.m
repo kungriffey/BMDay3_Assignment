@@ -8,9 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-
-
-
 int main2(int argc, const char * argv[]) {
     @autoreleasepool {
         

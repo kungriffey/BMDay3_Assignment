@@ -12,7 +12,6 @@ int acceptIntegerValueForStartingPointOfLoop(int a){
     return a;
 }
 
-
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         

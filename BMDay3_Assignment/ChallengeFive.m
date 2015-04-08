@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-
 int compareFunction(int a, int b){
     
     int higherValue = 0;
