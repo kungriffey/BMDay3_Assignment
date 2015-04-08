@@ -8,19 +8,23 @@
 
 #import <Foundation/Foundation.h>
 
-float convertToCelsius() {
-    
-    float tempInFahrenheit = 27;
-    float tempInCelsius = ((tempInFahrenheit - 32) / 1.8);
-    return tempInCelsius;
-}
+
 
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
-        float answer = convertToCelsius();
-        NSLog(@"27F is %fC", answer); //how can we round it to 2 decimal places
+        char c, d;
+        c = 'd';
+        d = c;
+        NSLog (@"d = %c", d);
+        
+        //Expected Output
+        /*
+         2015-04-08 14:58:42.737 BMDay3_Assignment[8488:402333] d = d
+         */
+        
+        
         
     }
     return 0;
