@@ -16,7 +16,7 @@ int computeSumFunction(int a, int b){
 }
 
 
-int main(int argc, const char * argv[]) {
+int main3(int argc, const char * argv[]) {
     @autoreleasepool {
         
         int answer = computeSumFunction(10, 5);
