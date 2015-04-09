@@ -15,11 +15,11 @@ float convertToCelsius() {
     return tempInCelsius;
 }
 
-int main1(int argc, const char * argv[]) {
+int main(int argc, const char * argv[]) {
     @autoreleasepool {
 
         float answer = convertToCelsius();
-        NSLog(@"27F is %fC", answer); //how can we round it to 2 decimal places
+        NSLog(@"27F is %.02fC", answer); //how can we round it to 2 decimal places
     
     }
     return 0;
